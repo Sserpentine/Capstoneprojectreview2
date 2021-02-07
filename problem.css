@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    height: 70px;
+    width: 1910px;
+    display: flex;
+    background-color: #BFFCF9;
+    background-size: 70px 1910px;
+}
+
+.nav-bar h2{
+    margin-left: 400px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+h1, h2{
+    text-align: center;
+}
+    h1{
+        font-size: 100px;
+        font-weight: 800;
+        font-family: 'Sanchez', serif;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 50pt;
+    font-size: 20px;
+}
+.problem-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50pt;
+}
+@media only screen and (max-width: 600px) {
+    img {
+     display: flex;
+     flex-direction: column;
+     margin: 20px;
+    }
+  }
